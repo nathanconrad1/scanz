@@ -86,8 +86,8 @@
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1 style="font-family: sans-serif, avenir; font-weight:lighter; font-style: italic;">SCANZ<span>.</span></h1>
-          <h2>Digitizing Your Printed Photos</h2>
+          <h1 style="font-family: sans-serif, avenir; font-weight:lighter; ">SCANZ<span>.</span></h1>
+          <h2>Digitizing Your Old Photos and Videos</h2>
         </div>
       </div>
 
@@ -138,12 +138,26 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>About</h3>
+            <p>why we started SCANZ.</p>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+           Being a professional photographer and videographer
+            for 6 years and having a love for the art of photo and video years before
+            I started my professional career has made it became a huge part of my life!
+              I’ve always loved looking back at my families old photos and videos but
+              it was always a hassle to get out all the tapes and set up everything
+            just to watch them or dig in the basement for the old photos I wished
+            for years that I could just have them easily accessible to look at and 
+            share! It wasn’t till I started to realize that I wasn’t sure how much
+            longer my grandma would be around. Growing up my grandma had always been
+            a huge part of my life and one of my best friends! Growing up she would
+            show us photos from when she grew up in New Zealand and even the time she
+            made it on the news for having so much spirit for the Utah jazz! I was
+            always afraid that after she died other people would take her photos
+            and I would never seen them again that’s when I decided to do something about
+             it and that’s when SCANZ was born! 
             </p>
-            <ul>
+            <!-- <ul>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
               <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
@@ -151,7 +165,7 @@
             <p>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-            </p>
+            </p> -->
           </div>
         </div>
 
@@ -455,7 +469,7 @@
             <div style="text-align: center;" class="content d-flex flex-column justify-content-center">
               <h3>Pricing to Digitize Photos</h3>
               <p>
-                  Get all your printed photos digitally on a flash drive
+                  Get all your printed photos digitized and put on a flash drive
               </p>
               <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
@@ -500,6 +514,12 @@
                 </div>
 
               </div>
+
+              <p style="font-size: small;">* Our photo scanning service comes with one free flash drive if you wish
+                 to have your photos to be put on multiple flash drives it’s $5 extra
+                  per flash drive 
+              </p>
+
             </div> 
             <!-- End .content -->
           </div>
@@ -520,7 +540,7 @@
             <div style="text-align: center;" class="content d-flex flex-column justify-content-center">
               <h3>Pricing to Digitize Videos</h3>
               <p>
-                  Get all your video tapes/cassets digitally on a flash drive
+                  Get all your video tapes/cassets digitized and put on a flash drive
               </p>
               <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
@@ -560,7 +580,7 @@
                   <div style="text-align: center;" class="count-box">
                     <!-- <i class="bi bi-award"></i> -->
                     <h3 style="padding-left: 20px;">41+ </h3>
-                    <p>$10.0 per tape</p>
+                    <p>$10.00 per tape</p>
                   </div>
                 </div>
               </div>
@@ -769,23 +789,54 @@
         enctype="multipart/form-data"
         method="POST"
         >
-        <input type="hidden" name="utf8" value="✓">
 
+        <h5>Contact Info</h5>
+        <input type="hidden" name="utf8" value="✓">
+        <br>
         <div class="col-md-6 form-group">
           <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
         </div>
+        <br>
         <div class="col-md-6 form-group mt-3 mt-md-0">
           <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+        </div>
+
+        <br>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+          <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" required>
         </div>
       
         <!-- <label for="email-address">Email Address</label>
         <input type="email" id="email-address" name="email"> -->
 
+
+        <br>
+        <label name="services">What service are you interested in?</label>
+        <select class="form-control" name="services">
+          <option disabled selected value class="form-control" style="color: #ced4da;">></option> <option>Photo</option> <option>Video</option> <option>Both</option> </select>
+        </select>
+
+        <br>
+        <label name="services">Do you need them rushed?</label>
+        <select class="form-control" name="rushed">
+          <option disabled selected value class="form-control" style="color: #ced4da;">></option> <option>Yes</option> <option>No</option> </select>
+        </select>
+
+
+        <br>
+        <label name="services">How do you perfer to be contacted?</label>
+        <select class="form-control" name="perferedContact">
+          <option disabled selected value class="form-control" style="color: #ced4da;">></option><option>Text Message</option> <option>Email</option> </select>
+        </select>
+
+        <br>
         <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Photo Amount" required>
+          <input type="text" class="form-control" name="Found" id="Found" placeholder="How did you find us?" required>
         </div>
+
+        <br>
         <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          <textarea class="form-control" name="message" rows="5" placeholder="Other info or questions" required></textarea>
         </div>
       
         <!-- <label for="photo-album">Photos</label>
@@ -834,14 +885,12 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-sm-4 style="width: .33;">
             <div class="footer-info">
               <h3>SZ<span>.</span></h3>
               <p>
-                Orem <br>
-                UT 84057, USA<br><br>
-                <strong>Phone:</strong> +1 801 687 3710<br>
-                <strong>Email:</strong> PhotoScanz2023@gmail.com<br>
+
+
               </p>
               <!-- <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -853,28 +902,37 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-sm-4 footer-links" style="width: .33;">
+            <p>
+              Orem <br>
+              UT 84057, USA<br><br>
+            </p>
+            <!-- <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li> -->
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
-            </ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li> 
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul> -->
           </div>
 
-          <!-- <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-sm-4 footer-links" style="width: .33;">
+
+            <p>                
+              <strong>Phone:</strong> +1 801 687 3710<br>
+              <strong>Email:</strong> PhotoScanz2023@gmail.com<br>
+            </p>
+            <!-- <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
+            </ul> -->
+          </div>
 
           <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
@@ -898,7 +956,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
       </div>
     </div>
   </footer><!-- End Footer -->
