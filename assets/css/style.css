@@ -308,7 +308,7 @@ h6 {
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 40px;
+  font-size: 30px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -359,7 +359,7 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 40px;
+  font-size: 30px;
   color: #151515;
 }
 
